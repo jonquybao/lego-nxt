@@ -1,7 +1,12 @@
-from ev3dev.auto import OUTPUT_A, Motor 
+from ev3dev.auto import OUTPUT_A, OUTPUT_D, Motor 
 import time
 
-m = Motor(OUTPUT_A)
-m.run_forever(duty_cycle_sp = 100)
+m_a = Motor(OUTPUT_A)
+m_a.run_forever(duty_cycle_sp = 100)
 time.sleep(1)
-m.stop()
+m_a.stop()
+
+m_d = Motor(OUTPUT_D)
+m_d.run_forever(duty_cycle_sp = 100)
+time.sleep(1)
+m_d.stop()
