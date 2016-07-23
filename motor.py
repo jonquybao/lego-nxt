@@ -13,3 +13,5 @@ time.sleep(1)
 
 m_a.stop()
 m_d.stop()
+
+print "finished"
