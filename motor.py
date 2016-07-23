@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from ev3dev.auto import OUTPUT_A, OUTPUT_D, Motor 
 import time
 
