@@ -12,6 +12,7 @@ m_d = Motor(OUTPUT_D)
 if action == 'run':
 	m_d.run_forever(duty_cycle_sp = 100)
 	m_a.run_forever(duty_cycle_sp = 100)
+	time.sleep(1000)
 else:
 	m_a.stop()
 	m_d.stop()
