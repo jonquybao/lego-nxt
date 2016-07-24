@@ -5,7 +5,6 @@ import time
 import sys
 
 
-action = sys.argv[1]
 m_a = Motor(OUTPUT_A)
 m_d = Motor(OUTPUT_D)
 
