@@ -7,7 +7,10 @@ import sys
 m_a = Motor(OUTPUT_A)
 m_d = Motor(OUTPUT_D)
 
-m_d.run_forever(duty_cycle_sp = 50)
-m_a.run_forever(duty_cycle_sp = 50)
+m_a.speed_sp = 50
+m_d.speed_sp = 50
+
+m_a.run_forever()
+m_d.run_forever()
 
 print "finished"
