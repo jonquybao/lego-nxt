@@ -9,5 +9,6 @@ m_d = Motor(OUTPUT_D)
 
 m_a.run_forever(duty_cycle_sp=100)
 m_d.run_forever(duty_cycle_sp=100)
+time.sleep(1000)
 
 print "finished"
